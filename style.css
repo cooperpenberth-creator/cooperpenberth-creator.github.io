@@ -503,19 +503,9 @@ h2 {
    ANIMATION
 ========================= */
 
+/* Keep resume content visible even when JavaScript is unavailable. */
 .reveal {
-  opacity: 0;
-
-  transform: translateY(10px);
-
-  transition:
-    opacity 0.55s ease,
-    transform 0.55s ease;
-}
-
-.reveal.visible {
   opacity: 1;
-
   transform: none;
 }
 
